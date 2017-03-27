@@ -1,0 +1,161 @@
+{
+  "name": "product-catalog",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "UPC": {
+      "type": "string"
+    },
+    "Legacy_UPC": {
+      "type": "string",
+      "required": true
+    },
+    "Has_Nutrition": {
+      "type": "boolean",
+      "required": true
+    },
+    "Value_Prepared_Count": {
+      "type": "string",
+      "required": true
+    },
+    "Category": {
+      "type": "string",
+      "required": true
+    },
+    "Brand": {
+      "type": "string",
+      "required": true
+    },
+    "Product_Line": {
+      "type": "string",
+      "required": true
+    },
+    "Manufacturer": {
+      "type": "string",
+      "required": true
+    },
+    "Item_Size": {
+      "type": "string"
+    },
+    "Item_Measure": {
+      "type": "string"
+    },
+    "Height": {
+      "type": "number"
+    },
+    "Width": {
+      "type": "number"
+    },
+    "Depth": {
+      "type": "number"
+    },
+    "Product_Weight": {
+      "type": "number"
+    },
+    "Extended_Size": {
+      "type": "number"
+    },
+    "Item_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Product_Details": {
+      "type": "string"
+    },
+    "Indications": {
+      "type": "string"
+    },
+    "Directions": {
+      "type": "string"
+    },
+    "Ingredients": {
+      "type": "string"
+    },
+    "Warnings": {
+      "type": "string"
+    },
+    "Drug_Interactions": {
+      "type": "string",
+      "required": true
+    },
+    "Kosher_1": {
+      "type": "string"
+    },
+    "Kosher_2": {
+      "type": "string"
+    },
+    "Kosher_3": {
+      "type": "string"
+    },
+    "Kosher_4": {
+      "type": "string"
+    },
+    "Kosher_5": {
+      "type": "string"
+    },
+    "Post_Date": {
+      "type": "string"
+    },
+    "HasDrugFacts": {
+      "type": "boolean",
+      "required": true
+    },
+    "PetGuaranteedAnalysis": {
+      "type": "boolean",
+      "required": true
+    },
+    "Volume": {
+      "type": "string"
+    },
+    "Nutrient_Master_ID": {
+      "type": "number"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "number",
+      "required": true
+    },
+    "UOM": {
+      "type": "string"
+    },
+    "Pct": {
+      "type": "number"
+    },
+    "Is_Or_Contains": {
+      "type": "string"
+    },
+    "Value_Prepared_Type": {
+      "type": "string",
+      "required": true
+    },
+    "Added_Item": {
+      "type": "boolean",
+      "required": true
+    },
+    "Serving_Size_Text": {
+      "type": "string",
+      "required": true
+    },
+    "Serving_Size_UOM": {
+      "type": "string"
+    },
+    "Serving_Per_Container": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
